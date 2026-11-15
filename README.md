@@ -1,52 +1,44 @@
-# Astro Starter Kit: Basics
+# Astro · práctica de páginas y layouts
 
-```sh
-npm create astro@latest -- --template basics
+Ejercicio de aprendizaje de Astro con páginas, componentes y layout compartido.
+
+## Estado
+
+Proyecto de práctica conservado para consulta y mejora. Las instrucciones describen el código incluido; las limitaciones específicas se indican abajo.
+
+## Uso
+
+```bash
+npm ci
+npm run dev
+npm run build
+npm run preview
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+Rutas: `/` y `/about`.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Contenido
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+| Ruta | Contenido |
+| --- | --- |
+| [astro.config.mjs](astro.config.mjs) | Archivo del proyecto |
+| [docs/](docs) | Documentación y referencias originales |
+| [package-lock.json](package-lock.json) | Archivo del proyecto |
+| [package.json](package.json) | Dependencias y comandos Node.js |
+| [public/](public) | Ejercicios y recursos |
+| [src/](src) | Código fuente |
+| [tsconfig.json](tsconfig.json) | Archivo del proyecto |
 
-## 🚀 Project Structure
+## Referencias
 
-Inside of your Astro project, you'll see the following folders and files:
+El [README original](docs/README-original.md) conserva créditos, enlaces y notas de la entrega inicial.
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
+## Mejoras de mantenimiento
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+La página acerca de usa el layout compartido y navegación accesible.
 
-## 🧞 Commands
+## Comprobaciones
 
-All commands are run from the root of the project, from a terminal:
+`npm run build` genera las rutas `/` y `/about`.
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+No se efectuó revisión visual en navegador.

@@ -22,3 +22,17 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Entornos locales, dependencias y archivos generados
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.angular/
+.env
+.env.*
+!.env.example
+.DS_Store
+dist/
+.astro/
